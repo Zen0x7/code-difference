@@ -19,9 +19,6 @@
 
     export default {
         props: ['resource', 'resourceName', 'resourceId', 'field'],
-        components: { CodeDiff },
-        mounted() {
-            console.log(this.field)
-        }
+        components: { CodeDiff }
     }
 </script>
